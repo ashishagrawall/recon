@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Data files (exclude large CSV from repo - optional)
+# payment_screening_volumes.csv
+
+# Output files (can regenerate)
+analysis_output/*.png
+analysis_output/*.csv
+analysis_output/*.json
+analysis_output/*.txt
+analysis_output/weekly_alerts/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
